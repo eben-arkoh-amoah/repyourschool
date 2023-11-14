@@ -20,3 +20,32 @@ body {
   color: rgb(var(--foreground-rgb));
   background: white;
 }
+
+.round{
+  border-radius: 50%;
+  /* color: #00000080; */
+}
+
+.button1{
+  display: inline-flex;
+    height: 32px;
+    padding: 6px 20px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 50px;
+      border: 1px solid #FFF;
+      background: #FFF;
+      box-shadow: 3px 4px 8px 0px #4CAF50;
+      color: #4CAF50;
+}
+
+.abs{
+  position: absolute;
+  top: 50px;
+  left: 150px;
+}
+
+.ml{
+  margin-left: -40px;
+}
